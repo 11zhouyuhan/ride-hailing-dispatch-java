@@ -36,7 +36,7 @@ I implemented the `DispatchCenter` worker pipeline (blocking `submit`, the worke
 Requires JDK 11+.
 
 ```bash
-javac -encoding UTF-8 -d out src/concurrent_final_project/*.java
+javac -encoding UTF-8 -d out *.java
 java -cp out concurrent_final_project.RideHailPlatform
 ```
 
